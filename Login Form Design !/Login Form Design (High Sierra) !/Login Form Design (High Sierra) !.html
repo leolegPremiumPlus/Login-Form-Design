@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<div class="container">
+    <form >
+      <button>Welcome !</button><br>
+      <input type="email" placeholder="Email"><br>
+      <input type="password" placeholder="Passeword"><br>
+      <input type="button" value="Login"><br>
+    </form>
+  
+    <div class="drop drop-1"></div>
+    <div class="drop drop-2"></div>
+    <div class="drop drop-3"></div>
+    <div class="drop drop-4"></div>
+    <div class="drop drop-5"></div>
+    <div class="drop drop-6"></div>
+</div>
+<html>
+    <style>
+        body {
+            background-image: url("High-Sierra.png");
+            height: 100vh;
+            font-family: arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+          
+          .container {
+            position: relative;
+        }
+        form {
+            background: rgba(255, 255, 255, .3);
+            padding: 3rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+        }
+
+        button {
+            background: #ffffff50;
+            border: none;
+            padding: 1rem;
+            width: 200px;
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+            color: #3f3f3f;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: all 0.5s;
+            margin-bottom: 2em;
+        }
+
+        input {
+            background: #ffffff50;
+            border: none;
+            padding: 1rem;
+            width: 200px;
+            border-radius: 50px;
+            backdrop-filter: blur(5px);
+            color: #3f3f3f;
+            font-weight: 500;
+            transition: all 0.5s;
+            margin-bottom: 2em;
+            outline: none;
+        }
+    
+        input[type="button"] {
+            margin-top: 10px;
+            width: 150px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        ::placeholder {
+          color: #3f3f3f;;
+        }
+
+        .drop {
+            background: rgba(255, 255, 255, .3);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            position: absolute;
+            transition: all 2s ease;
+        }
+
+        .drop-1 {
+            height: 80px; width: 80px;
+            top: -20px; left: -40px;
+            z-index: -1;
+        }
+          
+        .drop-2 {
+            height: 80px; width: 80px;
+            bottom: -30px; right: -30px;
+        }
+          
+        .drop-3 {
+            height: 100px; width: 100px;
+            bottom: 120px; right: -50px;
+            z-index: -1;
+        }
+          
+        .drop-4 {
+            height: 120px; width: 120px;
+            top: -60px; right: -60px;
+        }
+          
+        .drop-5 {
+            height: 60px; width: 60px;
+            bottom: 170px; left: 90px;
+            z-index: -1;
+        }
+
+        .drop-6 {
+          height: 100px; width: 100px;
+          bottom: 75px; left: -50px;
+          z-index: -1;
+      }
+    </style>
+</html>
